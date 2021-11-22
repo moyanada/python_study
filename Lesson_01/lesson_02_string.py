@@ -36,4 +36,4 @@ print(some_string[-5])
 print(some_string[0:2])
 print(some_string[1:2])
 
-print(some_string + 'zz')
+print(some_string + 'zzz')
