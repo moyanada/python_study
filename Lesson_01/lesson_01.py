@@ -5,7 +5,7 @@ print (print)
 #산식 확인
 print (1+2)
 print (15 // 3) #몫
-print (15 // 4) #나머지
+print (15 % 4) #나머지
 print (15 / 4) 
 print (2 ** 3) #2의4승
 
@@ -17,7 +17,7 @@ bool_data = True
 
 print(str_data, int_data, float_data, bool_data)
 
-#문자열 , 한칸띄고 넣어짐
+#문자열 , 한칸 띄고 넣어짐
 print("zzzz", "1111")
 
 # 키입력 방식

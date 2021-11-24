@@ -37,3 +37,13 @@ print(some_string[0:2])
 print(some_string[1:2])
 
 print(some_string + 'zzz')
+
+#공백제거
+some_string = "    공백이네    "
+some_string = some_string.strip()
+print( some_string)
+
+#원하는 문자열 제거
+some_string = ",,,,공백이네;;;;"
+some_string = some_string.strip(",")
+print(some_string)
