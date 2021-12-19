@@ -33,3 +33,12 @@ print("zzzz", "1111")
 #int("12") string to int
 #type() 함수로 타입을 알수있음
 print (type(int(3.6)))
+
+tmpVar = "string"
+print(type(tmpVar))
+tmpVar = 1
+print(type(tmpVar))
+tmpVar = 1.1
+print(type(tmpVar))
+tmpVar = True
+print(type(tmpVar))

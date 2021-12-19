@@ -1,5 +1,10 @@
 #리스트
 location = ['서울시', '경기도', '인천시']
+location = list(['서울시', '경기도', '인천시']);
+
+for i in location :
+    print(i)
+
 print(location)
 #리스트 추가하기
 location.append('부산시')
@@ -17,10 +22,10 @@ location.append('경기도')
 print(location)
 #삭제 del
 del location[0]
-print(location)
+print('삭제 : ', location)
 #삽입 insert
 location.insert(0, "서울시")
-print(location)
+print('추가 : ', location)
 #수정
 location[1] = '경기도'
 location[2] = '부산시'

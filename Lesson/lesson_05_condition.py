@@ -10,8 +10,11 @@ if age_digit != 0 and age_digit >= 19 :
 if age_digit >= 0 and age_digit < 19 :
     print("당신은 미성년자입니다")
     
-if not age_digit >= 19 :
-    print("not")
+if age_digit == 19 or age_digit > 19:
+    print("당신은 성인")
+    
+if not age_digit > 19 :
+    print("not 19세보다 작네용")
 
 if age_digit == 0 :
     print("0살 입니다")
